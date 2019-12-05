@@ -1,0 +1,50 @@
+@import './variables';
+
+* {
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: $fontSizeBase;
+	font-family: $fontPrimary;
+}
+
+body {
+	font-size: $fontSize3;
+}
+
+main {
+	margin: 10vh auto;
+	padding: 5vh 4vw;
+	width: 80%;
+	min-height: 80vh;
+	background: $colorPrimaryInverted;
+}
+
+input, textarea {
+	padding: 0;
+	font: inherit;
+}
+
+button, a {
+	appearance: none;
+	border: 0;
+	margin: 0;
+	padding: $spacing1 $spacing2;
+	transition: .2s ease-in-out;
+	transition-property: border-color, color;
+	color: inherit;
+	cursor: pointer;
+
+	&:active, &:hover, &:focus {
+		color: $colorSecondary;
+		outline: none;
+	}
+}

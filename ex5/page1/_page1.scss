@@ -1,0 +1,72 @@
+@import '../common/variables';
+
+.btn-group {
+	$self: &;
+
+	&__btn {
+		border-left: $border1;
+		padding: $spacing1 $spacing2;
+		color: $colorPrimary;
+
+		&:first-child {
+			border-radius: 1px 0 0 1px;
+		}
+
+		&:last-child {
+			border-right: $border1;
+			border-radius: 0 1px 1px 0;
+		}
+	}
+
+	&--spacing-4 {
+		background: $colorPrimary;
+		color: $colorPrimaryInverted;
+
+		#{ $self }__btn {
+			padding-left: $spacing4;
+			padding-right: $spacing4;
+		}
+	}
+}
+
+
+.btnGroup {
+	$self: &;
+
+	&-btn {
+		border-right: thin solid;
+		padding: $spacing1 $spacing2;
+		color: $colorPrimary;
+	}
+
+	&_spaced {
+		background: $colorPrimary;
+		color: $colorPrimaryInverted;
+
+		#{ $self }-btn {
+			padding-left: $spacing4;
+			padding-right: $spacing4;
+		}
+	}
+}
+
+
+.btnGroup {
+	$self: &;
+
+	&__btn {
+		border-right: thin solid;
+		padding: $spacing1 $spacing2;
+		color: $colorPrimary;
+	}
+
+	&_spaced {
+		background: $colorPrimary;
+		color: $colorPrimaryInverted;
+
+		#{ $self }_btn {
+			padding-left: $spacing4;
+			padding-right: $spacing4;
+		}
+	}
+}

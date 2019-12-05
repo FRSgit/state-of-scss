@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+main {
+  margin: 10vh auto;
+  padding: 5vh 4vw;
+  width: 80%;
+  min-height: 80vh;
+  background: #e0e0e0;
+}
+
+input, textarea {
+  padding: 0;
+  font: inherit;
+}
+
+button, a {
+  appearance: none;
+  border: 0;
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  transition: 0.2s ease-in-out;
+  transition-property: border-color, color;
+  color: inherit;
+  cursor: pointer;
+}
+button:active, button:hover, button:focus, a:active, a:hover, a:focus {
+  color: #93009c;
+  outline: none;
+}
+
+.btn-group {
+  display: flex;
+  margin-bottom: 1rem;
+  color: #222288;
+}
+.btn-group__btn {
+  border: thin solid;
+  border-right: 0;
+}
+.btn-group__btn:first-child {
+  border-radius: 8px 0 0 8px;
+}
+.btn-group__btn:last-child {
+  border-right: thin solid;
+  border-radius: 0 8px 8px 0;
+}
+.btn-group--inverted {
+  color: #e0e0e0;
+}
+.btn-group--inverted .btn-group__btn {
+  background: #222288;
+}
+
+.btnGroup {
+  display: flex;
+  margin-bottom: 1rem;
+  color: #222288;
+}
+.btnGroup-btn {
+  border: thin solid;
+  border-right: 0;
+}
+.btnGroup-btn:first-child {
+  border-radius: 8px 0 0 8px;
+}
+.btnGroup-btn:last-child {
+  border-right: thin solid;
+  border-radius: 0 8px 8px 0;
+}
+.btnGroup_inverted {
+  color: #e0e0e0;
+}
+.btnGroup_inverted .btnGroup-btn {
+  background: #222288;
+}
+
+.btnGroup {
+  display: flex;
+  margin-bottom: 1rem;
+  color: #222288;
+}
+.btnGroup__btn {
+  border: thin solid;
+  border-right: 0;
+}
+.btnGroup__btn:first-child {
+  border-radius: 8px 0 0 8px;
+}
+.btnGroup__btn:last-child {
+  border-right: thin solid;
+  border-radius: 0 8px 8px 0;
+}
+.btnGroup_inverted {
+  color: #e0e0e0;
+}
+.btnGroup_inverted .btnGroup__btn {
+  background: #222288;
+}
+
+/*# sourceMappingURL=index.css.map */

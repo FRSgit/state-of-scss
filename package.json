@@ -1,0 +1,32 @@
+{
+  "name": "state-of-scss",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "incstr": "^1.2.3",
+    "node-sass": "^4.13.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "ex1": "sass ex1/index.scss ex1/index.css --watch",
+    "ex1-solution": "sass ex1-solution/index.scss ex1-solution/index.css --watch",
+    "ex2": "sass ex2/index.scss ex2/index.css --watch",
+    "ex2-solution": "sass ex2-solution/index.scss ex2-solution/index.css --watch",
+    "ex3": "sass ex3/index.scss ex3/index.css --watch",
+    "ex3-solution": "sass ex3-solution/index.scss ex3-solution/index.css --watch",
+    "ex3-pug": "webpack-dev-server --mode development --ex 3-pug",
+    "ex4": "webpack-dev-server --mode development --ex 4",
+    "ex4-solution": "webpack-dev-server --mode development --ex 4-solution",
+    "ex4-solution-prod": "webpack-dev-server --mode production --ex 4-solution"
+  }
+}

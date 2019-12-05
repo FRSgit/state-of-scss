@@ -1,0 +1,87 @@
+@import './variables';
+
+.btn-group {
+	$self: &;
+	display: flex;
+	margin-bottom: $spacing3;
+	color: $colorPrimary;
+
+	&__btn {
+		border: $border1;
+		border-right: 0;
+
+		&:first-child {
+			border-radius: $borderRadius 0 0 $borderRadius;
+		}
+
+		&:last-child {
+			border-right: $border1;
+			border-radius: 0 $borderRadius $borderRadius 0;
+		}
+	}
+
+	&--inverted {
+		color: $colorPrimaryInverted;
+		#{ $self }__btn {
+			background: $colorPrimary;
+		}
+	}
+}
+
+
+.btnGroup {
+	$self: &;
+	display: flex;
+	margin-bottom: $spacing3;
+	color: $colorPrimary;
+
+	&-btn {
+		border: $border1;
+		border-right: 0;
+
+		&:first-child {
+			border-radius: $borderRadius 0 0 $borderRadius;
+		}
+
+		&:last-child {
+			border-right: $border1;
+			border-radius: 0 $borderRadius $borderRadius 0;
+		}
+	}
+
+	&_inverted {
+		color: $colorPrimaryInverted;
+		#{ $self }-btn {
+			background: $colorPrimary;
+		}
+	}
+}
+
+
+.btnGroup {
+	$self: &;
+	display: flex;
+	margin-bottom: $spacing3;
+	color: $colorPrimary;
+
+	&__btn {
+		border: $border1;
+		border-right: 0;
+
+		&:first-child {
+			border-radius: $borderRadius 0 0 $borderRadius;
+		}
+
+		&:last-child {
+			border-right: $border1;
+			border-radius: 0 $borderRadius $borderRadius 0;
+		}
+	}
+
+	&_inverted {
+		color: $colorPrimaryInverted;
+		#{ $self }__btn {
+			background: $colorPrimary;
+		}
+	}
+}

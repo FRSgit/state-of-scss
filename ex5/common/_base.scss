@@ -1,0 +1,41 @@
+@import './variables';
+
+* {
+	box-sizing: border-box;
+	transition: .2s border-color ease-in-out;
+
+	&:active, &:hover, &:focus {
+		border-color: $colorSecondary
+	}
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: $fontSizeBase;
+	font-family: $fontPrimary;
+}
+
+body {
+	font-size: $fontSize3;
+}
+
+input, textarea {
+	padding: 0;
+	font: inherit;
+}
+
+button, a {
+	appearance: none;
+	border: $border1;
+	margin: 0;
+	padding: 0;
+
+	&:active, &:hover, &:focus {
+		outline: none;
+		border-color: inherit;
+	}
+}

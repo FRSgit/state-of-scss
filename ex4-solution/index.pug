@@ -1,0 +1,38 @@
+main
+	- cls = require('./_btn-group.scss');
+	- utils = require('./_utils.scss');
+	- console.log(cls);
+
+	div(class=cls["btn-group"])
+		button(type="button" class=cls["btn-group__btn"]) First
+		button(type="button" class=cls["btn-group__btn"]) Second
+		button(type="button" class=cls["btn-group__btn"]) Third
+
+	div(class=cls.btnGroup)
+		button(type="button" class=cls["btnGroup-btn"]) First
+		button(type="button" class=cls["btnGroup-btn"]) Second
+		button(type="button" class=cls["btnGroup-btn"]) Third
+
+	div(class=cls.btnGroup)
+		button(type="button" class=cls.btnGroup__btn) First
+		button(type="button" class=cls.btnGroup__btn) Second
+		button(type="button" class=cls.btnGroup__btn) Third
+
+	div(class=`${cls["btn-group"]} ${cls["btn-group--inverted"]} ${utils["mt-4"]}`)
+		button(type="button" class=cls["btn-group__btn"]) First
+		button(type="button" class=cls["btn-group__btn"]) Second
+		button(type="button" class=cls["btn-group__btn"]) Third
+
+	div(class=`${cls.btnGroup} ${cls["btnGroup_inverted"]}`)
+		button(type="button" class=cls["btnGroup-btn"]) First
+		button(type="button" class=cls["btnGroup-btn"]) Second
+		button(type="button" class=cls["btnGroup-btn"]) Third
+
+	div(class=`${cls.btnGroup} ${cls.btnGroup_inverted}`)
+		button(type="button" class=cls.btnGroup__btn) First
+		button(type="button" class=cls.btnGroup__btn) Second
+		button(type="button" class=cls.btnGroup__btn) Third
+
+	footer(class=utils["mt-4"])
+		| Made for you by Jakub Phraseler
+

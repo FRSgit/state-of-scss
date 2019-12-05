@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+main {
+  margin: 10vh auto;
+  padding: 5vh 4vw;
+  width: 80%;
+  min-height: 80vh;
+  background: #e0e0e0;
+}
+
+input, textarea {
+  padding: 0;
+  font: inherit;
+}
+
+button, a {
+  appearance: none;
+  border: 0;
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  transition: 0.2s ease-in-out;
+  transition-property: border-color, color;
+  cursor: pointer;
+}
+button:active, button:hover, button:focus, a:active, a:hover, a:focus {
+  color: #93009c;
+  outline: none;
+}
+
+/*
+ * Write your code here!
+ */
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  transition: 0.2s border-color ease-in-out;
+}
+*:active, *:hover, *:focus {
+  border-color: #775500;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+input, textarea {
+  padding: 0;
+  font: inherit;
+}
+
+button, a {
+  appearance: none;
+  border: thin solid;
+  margin: 0;
+  padding: 0;
+}
+button:active, button:hover, button:focus, a:active, a:hover, a:focus {
+  outline: none;
+  border-color: inherit;
+}
+
+.Mt\(1rem\) {
+  margin-top: 0.25rem;
+}
+
+.Mt\(2rem\) {
+  margin-top: 0.75rem;
+}
+
+.Mt\(3rem\) {
+  margin-top: 1rem;
+}
+
+.Mt\(4rem\) {
+  margin-top: 2rem;
+}
+
+.btn-group__btn {
+  border-left: thin solid;
+  padding: 0.25rem 0.75rem;
+  color: #222288;
+}
+.btn-group__btn:first-child {
+  border-radius: 1px 0 0 1px;
+}
+.btn-group__btn:last-child {
+  border-right: thin solid;
+  border-radius: 0 1px 1px 0;
+}
+.btn-group--spacing-4 {
+  background: #222288;
+  color: #e0e0e0;
+}
+.btn-group--spacing-4 .btn-group__btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btnGroup-btn {
+  border-right: thin solid;
+  padding: 0.25rem 0.75rem;
+  color: #222288;
+}
+.btnGroup_spaced {
+  background: #222288;
+  color: #e0e0e0;
+}
+.btnGroup_spaced .btnGroup-btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btnGroup__btn {
+  border-right: thin solid;
+  padding: 0.25rem 0.75rem;
+  color: #222288;
+}
+.btnGroup_spaced {
+  background: #222288;
+  color: #e0e0e0;
+}
+.btnGroup_spaced .btnGroup_btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */
